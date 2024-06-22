@@ -55,10 +55,14 @@ useHead({
 });
 
 const downloadResume = () => {
+  console.log("Download function called");
   const link = document.createElement("a");
   link.href = "/folders/AyoubSenhajiResume.pdf";
+  console.log("File path:", link.href);
   link.download = "AyoubSenhajiResume.pdf";
+  document.body.appendChild(link);
   link.click();
+  document.body.removeChild(link);
 };
 </script>
 
