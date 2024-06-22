@@ -12,8 +12,8 @@
           colorMode.value === "light"
             ? "State Engineer by day"
             : "FullStack Developer by night"
-        }}.</el-text
-      >
+        }}
+      </el-text>
     </div>
   </div>
 </template>
