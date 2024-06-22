@@ -1,0 +1,76 @@
+body {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.dark-mode body {
+  background-color: #091a28;
+  color: #ebf4f1;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20vh;
+  color: #333;
+}
+
+.dark-mode .main-title {
+  color: #ebf4f1;
+}
+
+.secondary-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2vh;
+  color: #333;
+}
+
+.dark-mode .secondary-title {
+  color: #ebf4f1;
+}
+
+.resume-download-button {
+  background-color: #333;
+  color: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.resume-download-button:hover {
+  background-color: #fff;
+  color: #333;
+  outline: none;
+  border: 1px solid #333;
+}
+
+.resume-download-button .resume-icon {
+  margin-left: 5px;
+  fill: currentColor;
+}
+
+.resume-download-button:hover .resume-icon {
+  fill: currentColor;
+}
+
+.dark-mode .resume-download-button {
+  background-color: #ebf4f1;
+  color: #091a28;
+}
+
+.dark-mode .resume-download-button:hover {
+  background-color: #091a28;
+  color: #fff;
+  border: 1px solid #ebf4f1;
+}
+
+.dark-mode .resume-download-button .resume-icon {
+  fill: currentColor;
+}
+
+.dark-mode .resume-download-button:hover .resume-icon {
+  fill: currentColor;
+}
