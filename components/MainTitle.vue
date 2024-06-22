@@ -1,19 +1,17 @@
 <template>
   <div>
     <div>
-      <el-text class="main-title"
-        >Hello There! I am Ayoub Senhaji Hamim.</el-text
-      >
+      <p class="main-title">Hello There! I am Ayoub Senhaji Hamim.</p>
     </div>
     <div>
-      <el-text class="secondary-title"
-        >I am a
+      <p class="secondary-title">
+        I am a
         {{
           colorMode.value === "light"
             ? "State Engineer by day"
             : "FullStack Developer by night"
         }}
-      </el-text>
+      </p>
     </div>
   </div>
 </template>
